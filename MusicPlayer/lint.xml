@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <issue id="HandlerLeak">
+        <ignore path="src/de/timroes/swipetodismiss/SwipeDismissList.java" />
+    </issue>
+    <issue id="NewApi">
+        <ignore path="src/de/timroes/swipetodismiss/SwipeDismissList.java" />
+    </issue>
+    <issue id="Recycle">
+        <ignore path="src/de/timroes/swipetodismiss/SwipeDismissList.java" />
+    </issue>
+</lint>

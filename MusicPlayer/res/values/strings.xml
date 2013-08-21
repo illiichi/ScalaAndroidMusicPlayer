@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SPlayer</string>
+    <string name="action_manage_playlist">Manage Playlist</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="album_cover">album cover</string>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="playlist_title">Playlist Title</string>
+    <string name="action_add_songs">Add Songs</string>
+    <string name="action_create_playlist">Create a playlist</string>
+    <string name="undo">Undo</string>
+    <string name="undoall">Undo All</string>
+
+</resources>

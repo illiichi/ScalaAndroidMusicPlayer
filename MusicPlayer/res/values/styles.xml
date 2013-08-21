@@ -1,0 +1,45 @@
+<resources>
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Holo">
+        <item name="android:background">@android:color/black</item>
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <item name="android:background">@android:color/black</item>
+        <item name="android:textColor">@android:color/white</item>
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+    <style name="ControllerBarItem">
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_width">32dp</item>
+        <item name="android:layout_height">32dp</item>
+        <item name="android:gravity">center|right</item>
+        <item name="android:layout_marginLeft">@dimen/controller_bar_item_margin</item>
+        <item name="android:layout_marginRight">@dimen/controller_bar_item_margin</item>
+        <item name="android:paddingLeft">@dimen/controller_bar_item_padding</item>
+        <item name="android:paddingRight">@dimen/controller_bar_item_padding</item>
+        <item name="android:scaleType">centerInside</item>
+    </style>
+
+    <style name="AlertDialogCustom" parent="@android:style/Theme.Dialog">
+        <item name="android:textColor">#FFFFFF</item>
+<!--         <item name="android:typeface">monospace</item> -->
+        <item name="android:textSize">10sp</item>
+    </style>
+    
+    <style name="fade_animation">
+		<item name="@android:windowEnterAnimation">@anim/popup_show</item>
+		<item name="@android:windowExitAnimation">@anim/popup_hide</item>
+	</style>
+</resources>

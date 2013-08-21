@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/action_create_playlist"
+        android:orderInCategory="100"
+        android:showAsAction="ifRoom|withText"
+        android:icon="@drawable/menu_add"
+        android:uiOptions="splitActionBarWhenNarrow"
+        android:title="@string/action_create_playlist"/>
+    
+</menu>

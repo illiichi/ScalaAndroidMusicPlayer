@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/action_add_songs"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:icon="@drawable/menu_add"
+        android:uiOptions="splitActionBarWhenNarrow"
+        android:title="@string/action_add_songs"/>
+    
+    <item
+        android:id="@+id/action_manage_playlist"
+        android:orderInCategory="100"
+        android:showAsAction="ifRoom|withText"
+        android:icon="@drawable/menu_playlist"
+        android:uiOptions="splitActionBarWhenNarrow"
+        android:title="@string/action_manage_playlist"/>
+
+</menu>
